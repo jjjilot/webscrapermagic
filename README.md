@@ -1,2 +1,2 @@
 # webscraperDocumentation
-https://kufooloo.github.io/webscraperDocumentation/
+https://jjjilot.github.io/webscrapermagic/
