@@ -1,62 +1,96 @@
-  
 header {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #669900;
-    margin-right: 2%;
-    margin-left: 2%;
-    margin-top: 2%;
-}
-p {
-    margin-left: 2%;
-    color: #40434E;
-}
-body {
-    background-color: #ecffec;
-    color: #009933;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-right: 12%;
-    margin-left: 12%;
-    /* margin-top: 10%; */
-}
-a {
-    color: #40434E;
-}
-div {
-    position: fixed;
-    left: 0px;
-    width: 150px;
-    top: 0px;
-    height: 1000px;
-    background-color: #3A405A;
-}
-.sidenav {
-  height: 100%;
-  width: 150px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background: #006600;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
+      font-family: "Arial Black", Gadget, sans-serif;
+      font-size: 30px;
+      color: #333;
+      text-align: center;
+      margin-right: 2%;
+      margin-left: 2%;
+      margin-top: 2%;
+  }
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #EBEBEB;
-  display: block;
-}
+  h1 {
+      text-align: center;
+  }
 
-.sidenav a:hover {
-  color: #AFCEFF;
-}
-img {
-    margin-left: 2%;
-    /* width: 640px;
+  .imgcenter {
+      display: block;
+      margin: 0 auto;
+      width: 50%;
+  }
+
+  p {
+      margin-left: 2%;
+      color: #40434E;
+  }
+
+  body {
+      background-color: #FFF;
+      color: #333;
+      font-family: Gill Sans, sans-serif, sans-serif;
+      margin-right: 12%;
+      margin-left: 12%;
+      /* margin-top: 10%; */
+  }
+
+  a {
+      color: #40434E;
+  }
+
+  div {
+
+      left: 0px;
+      width: 150px;
+      top: 0px;
+      height: 1000px;
+      background-color: #FFF;
+  }
+
+  .sidenav {
+      height: 100%;
+      width: 150px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background: #de3a3a;
+      overflow-x: hidden;
+      padding-top: 20px;
+  }
+
+  .sidenav a {
+      padding: 24px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 30px;
+      color: #333;
+      display: block;
+  }
+
+  .sidenav a:hover {
+      text-decoration: underline;
+  }
+
+  img {
+      align: center;
+      /* width: 640px;
     height: 340px; */
-}
-button {
-    margin-left: 2%;
-}
+  }
+
+  button {
+      width: 155px;
+  }
+
+  .form {
+      margin: 0 auto;
+      width: 160px;
+      height: auto;
+  }
+
+  .form label {
+      display: inline-block;
+      text-align: left;
+  }
+
+  .form input {
+      display: inline-block;
+      text-align: left;
+  }
